@@ -7,7 +7,7 @@
 # Introduction
 This is Dino. It is offline mode [T-Rex](https://github.com/hyunho1027/T-RexRL)
 
-If you want to see the learning video, go [here](https://youtu.be/ioUfe4YLe_c)
+If you want to see the learning video, go [here](https://youtu.be/t9g9ILdjcmg)
 
 ## Agent
 The agent is Dino
