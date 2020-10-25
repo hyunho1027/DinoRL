@@ -62,10 +62,10 @@ class DQN:
 
     def train(self):
         mini = random.sample(self.mem, min(len(self.mem), self.batch_size))
-        s = tf.convert_to_tensor([m[0] for m in mini])
+        s = [m[0] for m in mini]
         a = tf.convert_to_tensor([m[1] for m in mini])
         r = tf.convert_to_tensor([m[2] for m in mini])
-        ns = tf.convert_to_tensor([m[3] for m in mini])
+        ns = [m[3] for m in mini]
         d = tf.convert_to_tensor([m[4] for m in mini])
         return self.train_step(s,a,r,ns,d)
 
